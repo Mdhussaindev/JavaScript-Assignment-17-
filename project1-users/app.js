@@ -20,7 +20,7 @@ function fetchUsers() {
         let isOpen = false;
 
         card.innerHTML = `
-          <img src="https://i.pravatar.cc/150?img=${user.id}">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKT-zEVF-E4SEkm3us25N1DoHQLnC4XWumjw&s${user.id}">
           <h3>${user.name}</h3>
           <p class="info">${user.company.catchPhrase}</p>
           <button>Interested</button>
@@ -33,7 +33,9 @@ function fetchUsers() {
           if (!isOpen) {
             info.innerHTML = `
               Email: ${user.email}<br>
+
               Phone: ${user.phone}<br>
+
               Company: ${user.company.name}
             `;
             btn.innerText = "Back";
