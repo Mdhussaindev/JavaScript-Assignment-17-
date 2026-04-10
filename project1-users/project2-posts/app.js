@@ -21,11 +21,13 @@ function fetchPosts() {
         let isOpen = false;
 
         card.innerHTML = `
-          <h3>${post.title}</h3>
-          <p class="info">${post.body.slice(0, 50)}...</p>
-          <button>Read More</button>
-        `;
+  <div class="card-content">
+    <h3>${post.title}</h3>
+    <p class="info">${post.body.slice(0, 50)}...</p>
+  </div>
 
+  <button>Read More</button>
+`;
         const btn = card.querySelector("button");
         const info = card.querySelector(".info");
 
