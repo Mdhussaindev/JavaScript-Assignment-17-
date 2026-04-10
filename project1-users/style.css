@@ -27,7 +27,7 @@ body {
   
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* 🔥 MAGIC LINE */
+  justify-content: space-between; 
   height: 300px; /* same height sab cards ki */
 }
 
@@ -37,7 +37,7 @@ body {
   border-radius: 50%;
 
   display: block;
-  margin: 0 auto; /* 🔥 YE LINE IMAGE KO CENTER KAREGI */
+  margin: 0 auto; 
 }
 .card:hover {
   transform: translateY(-10px);
