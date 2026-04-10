@@ -23,6 +23,15 @@ body {
   transform: scale(1.05);
 }
 
+.nav-links a{
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links a:hover{
+  color: #00ffcc; /* hover pe color change */
+}
+
 button {
   padding: 8px 15px;
   margin-top: 10px;
