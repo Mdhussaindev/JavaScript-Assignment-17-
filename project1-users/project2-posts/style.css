@@ -12,8 +12,14 @@ body {
   padding: 20px;
 }
 
-.h1 hover{
-  color: blue;
+h1 {
+  transition: 0.3s;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  color: green;
+  cursor: pointer;
 }
 
 .card {
@@ -48,10 +54,6 @@ body {
   margin-top: auto;
 }
 
-.card:hover {
-  transform: scale(1.05);
-}
-
 .card:hover{
   color: green;
 }
@@ -63,7 +65,7 @@ body {
 }
 
 .nav-links a:hover{
-  color: #00ffcc; /* hover pe color change */
+  color: #00ffcc; 
 }
 
 button {
