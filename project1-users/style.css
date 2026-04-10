@@ -62,6 +62,10 @@ h1 {
   transition: 0.3s;
 }
 
+.card :hover{
+  color: blue;
+}
+
 
 button {
   padding: 8px 15px;
